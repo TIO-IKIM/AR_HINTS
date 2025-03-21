@@ -62,6 +62,9 @@ The Python component (`python_processing_raw_data`) provides a complete pipeline
    - Clone this repository
    - Open the project in Unity (`unity_app_hl2/SampleEyeTrackingHL2hints`)
    - Configure your development environment for HoloLens 2 using MRTK
+      - known issues
+         - import the 'Newtonsoft' NuGet package manually if Newtonsoft namespace is missing.
+         - 'Extended Eye Gaze Data Provider' inside the 'ExtendedEyeTrackerHLhints' game object can be missing -> simply drag the object into the field stating it's missing.
    - Build the solution for ARM64 architecture
    - Deploy to HoloLens 2 using Visual Studio or the Device Portal
 
