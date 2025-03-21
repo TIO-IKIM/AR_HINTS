@@ -1,0 +1,52 @@
+# -----------------------
+# Global ignores
+# -----------------------
+.DS_Store
+Thumbs.db
+
+# Exclude root-level Temp folder (if present)
+[/]Temp/
+[/]temp/
+
+# -----------------------
+# Python project ignores
+# (For the project in "python_processing_raw_data/")
+# -----------------------
+/python_processing_raw_data/**/__pycache__/
+/python_processing_raw_data/**/*.py[cod]
+/python_processing_raw_data/**/*.egg-info/
+/python_processing_raw_data/**/.eggs/
+/python_processing_raw_data/**/env/
+/python_processing_raw_data/**/venv/
+/python_processing_raw_data/*.egg
+
+# -----------------------
+# Unity project ignores
+# (For the Unity project in "unity_app_hl2/SampleEyeTrackingHL2hints/")
+# -----------------------
+/unity_app_hl2/SampleEyeTrackingHL2hints/Library/
+/unity_app_hl2/SampleEyeTrackingHL2hints/Temp/
+/unity_app_hl2/SampleEyeTrackingHL2hints/Obj/
+/unity_app_hl2/SampleEyeTrackingHL2hints/obj/
+/unity_app_hl2/SampleEyeTrackingHL2hints/Build/
+/unity_app_hl2/SampleEyeTrackingHL2hints/Builds/
+/unity_app_hl2/SampleEyeTrackingHL2hints/Logs/
+/unity_app_hl2/SampleEyeTrackingHL2hints/MemoryCaptures/
+
+# Unity auto-generated files and IDE-specific files
+/unity_app_hl2/SampleEyeTrackingHL2hints/.vs/
+/unity_app_hl2/SampleEyeTrackingHL2hints/*.csproj
+/unity_app_hl2/SampleEyeTrackingHL2hints/*.sln
+/unity_app_hl2/SampleEyeTrackingHL2hints/*.suo
+/unity_app_hl2/SampleEyeTrackingHL2hints/*.user
+/unity_app_hl2/SampleEyeTrackingHL2hints/*.userprefs
+/unity_app_hl2/SampleEyeTrackingHL2hints/*.pidb
+/unity_app_hl2/SampleEyeTrackingHL2hints/*.booproj
+/unity_app_hl2/SampleEyeTrackingHL2hints/*.svd
+/unity_app_hl2/SampleEyeTrackingHL2hints/*.pdb
+/unity_app_hl2/SampleEyeTrackingHL2hints/*.mdb
+/unity_app_hl2/SampleEyeTrackingHL2hints/*.vsconfig
+/unity_app_hl2/SampleEyeTrackingHL2hints/.vscode/
+
+# Optionally ignore Asset Store Tools if present
+/unity_app_hl2/SampleEyeTrackingHL2hints/Assets/AssetStoreTools*
